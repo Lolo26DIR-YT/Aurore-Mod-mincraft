@@ -345,6 +345,16 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Homescreen",
+      "type": "customtitlescreen",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homescreen",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -406,13 +416,29 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleRender.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleScreenHooks.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleScreenApi.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/AdvancedTitleScreen.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleBackdrop.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitlePlaceholders.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleVideoPlayer.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleWidgets.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleCursor.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleButtonWidget.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleScreenDef.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleParticles.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleMenus.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleScreenDefinitions.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleServerStatus.java",
+      "src/main/java/net/mcreator/auroremod/advancedtitlescreens/client/TitleLayer.java",
       "src/main/java/net/mcreator/auroremod/init/AuroreModModMobEffects.java",
       "src/main/java/net/mcreator/auroremod/init/AuroreModModPotions.java",
       "src/main/java/net/mcreator/auroremod/init/AuroreModModItems.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/auroremod/init/AuroreModModTabs.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/auroremod/AuroreModMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
