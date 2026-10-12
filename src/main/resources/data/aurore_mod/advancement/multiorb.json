@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "aurore_mod:orbexotique"
+    },
+    "title": {
+      "translate": "advancements.multiorb.title"
+    },
+    "description": {
+      "translate": "advancements.multiorb.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "multiorb_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "aurore_mod:orbexotiqueobtention"
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "smp_lolodir_mod:orbexotique"
+    },
+    "title": {
+      "translate": "advancements.orbexotiqueobtentiongoal_2.title"
+    },
+    "description": {
+      "translate": "advancements.orbexotiqueobtentiongoal_2.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbexotiqueobtentiongoal_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "smp_lolodir_mod:orbexotique",
+            "count": {
+              "min": 64,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "smp_lolodir_mod:orbexotiqueobtention"
+}

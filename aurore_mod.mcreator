@@ -1,0 +1,437 @@
+{
+  "mod_elements": [
+    {
+      "name": "SMP",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smp",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Orbtypique",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbtypique",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aurore_mod/items/orbtypique.json",
+          "src/main/resources/assets/aurore_mod/models/item/orbtypique.json",
+          "src/main/java/net/mcreator/auroremod/item/OrbtypiqueItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrbAtypique",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_atypique",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auroremod/item/OrbAtypiqueItem.java",
+          "src/main/resources/assets/aurore_mod/models/item/orb_atypique.json",
+          "src/main/resources/assets/aurore_mod/items/orb_atypique.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbrare",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbrare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auroremod/item/OrbrareItem.java",
+          "src/main/resources/assets/aurore_mod/models/item/orbrare.json",
+          "src/main/resources/assets/aurore_mod/items/orbrare.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbepique",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbepique",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aurore_mod/items/orbepique.json",
+          "src/main/resources/assets/aurore_mod/models/item/orbepique.json",
+          "src/main/java/net/mcreator/auroremod/item/OrbepiqueItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Orblegendaire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orblegendaire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auroremod/item/OrblegendaireItem.java",
+          "src/main/resources/assets/aurore_mod/items/orblegendaire.json",
+          "src/main/resources/assets/aurore_mod/models/item/orblegendaire.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbmythique",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbmythique",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auroremod/item/OrbmythiqueItem.java",
+          "src/main/resources/assets/aurore_mod/models/item/orbmythique.json",
+          "src/main/resources/assets/aurore_mod/items/orbmythique.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbexotique",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbexotique",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aurore_mod/items/orbexotique.json",
+          "src/main/java/net/mcreator/auroremod/item/OrbexotiqueItem.java",
+          "src/main/resources/assets/aurore_mod/models/item/orbexotique.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbtypiqueobtention",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbtypiqueobtention",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orbtypiqueobtention.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbatypiqueobtention",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbatypiqueobtention",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orbatypiqueobtention.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbrareobtention",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbrareobtention",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orbrareobtention.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbepiqueobtention",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbepiqueobtention",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orbepiqueobtention.json"
+        ]
+      }
+    },
+    {
+      "name": "Orblegendaireobtention",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orblegendaireobtention",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orblegendaireobtention.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbmythiqueobtention",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbmythiqueobtention",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orbmythiqueobtention.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbexotiqueobtention",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbexotiqueobtention",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orbexotiqueobtention.json"
+        ]
+      }
+    },
+    {
+      "name": "Orbexotiqueobtentiongoal2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbexotiqueobtentiongoal_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/orbexotiqueobtentiongoal_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Multiorb",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multiorb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/multiorb.json"
+        ]
+      }
+    },
+    {
+      "name": "Multiorbprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multiorbprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/auroremod/procedures/MultiorbprocedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Mineurfoueffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineurfoueffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auroremod/potion/MineurfoueffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Mineurfoupotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineurfoupotion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionmineurfouEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionmineurfou_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/auroremod/procedures/PotionmineurfouEvenementAuClicDroitDansLairProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Potionmineurfou",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionmineurfou",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aurore_mod/items/potionmineurfou.json",
+          "src/main/resources/assets/aurore_mod/models/item/potionmineurfou.json",
+          "src/main/java/net/mcreator/auroremod/item/PotionmineurfouItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Mineurfoupotionsucces",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineurfoupotionsucces",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aurore_mod/advancement/mineurfoupotionsucces.json"
+        ]
+      }
+    },
+    {
+      "name": "MineurfoueffectQuandLeffetCommenceEstApplique",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineurfoueffect_quand_leffet_commence_est_applique",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/auroremod/procedures/MineurfoueffectQuandLeffetCommenceEstAppliqueProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MineurfoueffectQuandLeffetExpire",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineurfoueffect_quand_leffet_expire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/auroremod/procedures/MineurfoueffectQuandLeffetExpireProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Smpmob",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smpmob",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.smp_lolodir_mod.orbtypique": "Orbe Typique",
+      "advancements.orbexotiqueobtentiongoal_2.title": "Vous aimez les choses instables vous...",
+      "advancements.orbepiqueobtention.title": "Elle me fait penser à un autre orbe...",
+      "item.smp_lolodir_mod.orbrare": "Orbe Rare",
+      "item.minecraft.potion.effect.mineurfoupotion": "Potion du Mineur fou",
+      "advancements.orbepiqueobtention.descr": "Vous avez obtenu une Orb Épique",
+      "advancements.orbtypiqueobtention.title": "Gris comme le vide...",
+      "item.smp_lolodir_mod.orb_atypique": "Orbe Typique",
+      "advancements.multiorb.descr": "Vous avez TOUTE les rarté d\u0027orb",
+      "advancements.orbtypiqueobtention.descr": "Vous avez obtenu une Orb Typique",
+      "advancements.multiorb.title": "Les pierres d\u0027infinité",
+      "item.smp_lolodir_mod.potionmineurfou": "Potion du mineur fou",
+      "advancements.orbrareobtention.title": "C\u0027est la couleur de l\u0027eau, ça !",
+      "effect.mineurfoueffect": "Mineur Fou",
+      "advancements.orbrareobtention.descr": "Vous avez obtenu une Orb Rare",
+      "advancements.orblegendaireobtention.title": "L\u0027orb des légende ? Elle est la ?",
+      "itemGroup.tabsmpmob": "SMP MOB",
+      "advancements.orbatypiqueobtention.title": "L\u0027espoir ou la chance pour le vert ?",
+      "advancements.mineurfoupotionsucces.title": "Es que c\u0027est normal les maux de ventre ?",
+      "advancements.orblegendaireobtention.descr": "Vous avez obtenu une Orb Légendaire",
+      "item.minecraft.splash_potion.effect.mineurfoupotion": "Splash du Mineur fou",
+      "item.smp_lolodir_mod.orblegendaire": "Orbe Légendaire",
+      "advancements.orbatypiqueobtention.descr": "Vous avez obtenu une Orb Atypique",
+      "advancements.orbmythiqueobtention.title": "Ce n\u0027est pas l\u0027orbe sacré, si ?",
+      "item.smp_lolodir_mod.orbexotique": "Orbe Exotique",
+      "advancements.orbmythiqueobtention.descr": "Vous avez obtenu une Orb Mythique !!",
+      "item.smp_lolodir_mod.orbepique": "Orbe Épique",
+      "item.minecraft.tipped_arrow.effect.mineurfoupotion": "Flèche du mineur fou",
+      "advancements.orbexotiqueobtention.descr": "Vous avez obtenu une Orb Exotique !!!",
+      "item.smp_lolodir_mod.orbmythique": "Orbe Mythique",
+      "advancements.orbexotiqueobtention.title": "Un des orbes les plus instables...",
+      "advancements.orbexotiqueobtentiongoal_2.descr": "Vous avez obtenu un stack d\u0027Orb Exotique !!!",
+      "itemGroup.tabsmp": "SMP",
+      "item.minecraft.lingering_potion.effect.mineurfoupotion": "Grande potion du mineur fou",
+      "advancements.mineurfoupotionsucces.descr": "Vous avez bu une potion de mineur fou",
+      "item_group.smp_lolodir_mod.smp": "SMP",
+      "effect.smp_lolodir_mod.mineurfoueffect": "Mineur Fou",
+      "item_group.smp_lolodir_mod.smpmob": "SMP MOB",
+      "item_group.aurore_mod.smp": "SMP",
+      "item.aurore_mod.orbtypique": "Orbe Typique",
+      "item.aurore_mod.orb_atypique": "Orbe Typique",
+      "item.aurore_mod.orbrare": "Orbe Rare",
+      "item.aurore_mod.orbepique": "Orbe Épique",
+      "item.aurore_mod.orblegendaire": "Orbe Légendaire",
+      "item.aurore_mod.orbmythique": "Orbe Mythique",
+      "item.aurore_mod.orbexotique": "Orbe Exotique",
+      "effect.aurore_mod.mineurfoueffect": "Mineur Fou",
+      "item.aurore_mod.potionmineurfou": "Potion du mineur fou",
+      "item_group.aurore_mod.smpmob": "SMP MOB"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/auroremod/init/AuroreModModMobEffects.java",
+      "src/main/java/net/mcreator/auroremod/init/AuroreModModPotions.java",
+      "src/main/java/net/mcreator/auroremod/init/AuroreModModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/auroremod/init/AuroreModModTabs.java",
+      "src/main/java/net/mcreator/auroremod/AuroreModMod.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aurore_mod",
+    "modName": "Aurore Mod",
+    "version": "0.1-beta",
+    "author": "Lolo26DIR",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "modElementsPackage": "net.mcreator.auroremod"
+  },
+  "mcreatorVersion": 202600233518
+}

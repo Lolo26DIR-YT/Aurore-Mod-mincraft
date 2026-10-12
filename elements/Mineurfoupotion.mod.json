@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion du Mineur fou",
+    "splashName": "Splash du Mineur fou",
+    "lingeringName": "Grande potion du mineur fou",
+    "arrowName": "Flèche du mineur fou",
+    "effects": [
+      {
+        "effect": "CUSTOM:Mineurfoueffect",
+        "duration": 1200,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

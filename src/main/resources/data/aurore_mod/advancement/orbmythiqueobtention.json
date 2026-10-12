@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "aurore_mod:orbmythique"
+    },
+    "title": {
+      "translate": "advancements.orbmythiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbmythiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbmythiqueobtention_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aurore_mod:orbmythique"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "aurore_mod:orblegendaireobtention"
+}

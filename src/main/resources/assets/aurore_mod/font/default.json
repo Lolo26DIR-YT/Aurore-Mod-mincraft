@@ -1,0 +1,17 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "aurore_mod:font/aurore_mod.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                " ÅABCDEFGHIJKLM",
+                "NOPQRSTUVWXYZEE",
+                "01234567896#ODO",
+                "O/\\?!=<>/*\"'*+",
+                ".,_$@"
+            ]
+        }
+    ]
+}

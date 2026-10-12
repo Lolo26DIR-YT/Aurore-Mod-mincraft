@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Vous aimez les choses instables vous...",
+    "achievementDescription": "Vous avez obtenu un stack d'Orb Exotique !!!",
+    "achievementIcon": "CUSTOM:Orbexotique",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 10000,
+    "achievementType": "goal",
+    "parent": "CUSTOM:Orbexotiqueobtention",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\" x=\"43\" y=\"24\"><value name=\"item\"><block type=\"item_predicate\"><mutation inputs=\"0\"/><field name=\"min\">64</field><field name=\"max\">64</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Orbexotique</field></block></value></block></value></block></next></block></xml>"
+  }
+}

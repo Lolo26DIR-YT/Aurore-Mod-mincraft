@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "aurore_mod:item/orb_epic_texture"
+  }
+}

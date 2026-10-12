@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "aurore_mod:orbexotique"
+    },
+    "title": {
+      "translate": "advancements.orbexotiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbexotiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbexotiqueobtention_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aurore_mod:orbexotique"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25000
+  },
+  "parent": "aurore_mod:orbmythiqueobtention"
+}

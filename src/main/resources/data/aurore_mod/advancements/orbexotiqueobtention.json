@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "smp_lolodir_mod:orbexotique"
+    },
+    "title": {
+      "translate": "advancements.orbexotiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbexotiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbexotiqueobtention": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "smp_lolodir_mod:orbexotique",
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25000
+  },
+  "parent": "smp_lolodir_mod:orbmythiqueobtention"
+}

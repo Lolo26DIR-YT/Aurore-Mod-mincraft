@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "smp_lolodir_mod:orbmythique"
+    },
+    "title": {
+      "translate": "advancements.orbmythiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbmythiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbmythiqueobtention": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "smp_lolodir_mod:orbmythique",
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "smp_lolodir_mod:orblegendaireobtention"
+}

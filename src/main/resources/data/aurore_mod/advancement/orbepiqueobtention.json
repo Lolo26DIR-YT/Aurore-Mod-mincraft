@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "aurore_mod:orbepique"
+    },
+    "title": {
+      "translate": "advancements.orbepiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbepiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbepiqueobtention_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aurore_mod:orbepique"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 360
+  },
+  "parent": "aurore_mod:orbrareobtention"
+}

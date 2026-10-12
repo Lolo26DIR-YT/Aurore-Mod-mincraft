@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "aurore_mod:orbtypique"
+    },
+    "title": {
+      "translate": "advancements.orbtypiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbtypiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbtypiqueobtention_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aurore_mod:orbtypique"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "minecraft:story/root"
+}

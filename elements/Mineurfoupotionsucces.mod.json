@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Es que c'est normal les maux de ventre ?",
+    "achievementDescription": "Vous avez bu une potion de mineur fou",
+    "achievementIcon": "CUSTOM:Potionmineurfou",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 500,
+    "achievementType": "task",
+    "parent": "story/root",
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"item_consumed\" x=\"38\" y=\"9\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Potionmineurfou</field></block></value></block></next></block></xml>"
+  }
+}

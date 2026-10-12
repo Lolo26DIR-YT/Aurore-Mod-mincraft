@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Mineur Fou",
+    "icon": "mineur-fou.png",
+    "color": {
+      "value": -16776961,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": "MineurfoueffectQuandLeffetCommenceEstApplique",
+    "onExpired": "MineurfoueffectQuandLeffetExpire"
+  }
+}

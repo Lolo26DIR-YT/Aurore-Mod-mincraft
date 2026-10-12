@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "smp_lolodir_mod:orb_atypique"
+    },
+    "title": {
+      "translate": "advancements.orbatypiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbatypiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbatypiqueobtention": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "smp_lolodir_mod:orb_atypique",
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "smp_lolodir_mod:orbtypiqueobtention"
+}

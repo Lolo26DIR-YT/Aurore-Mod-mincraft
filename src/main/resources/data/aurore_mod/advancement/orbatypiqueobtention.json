@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "aurore_mod:orb_atypique"
+    },
+    "title": {
+      "translate": "advancements.orbatypiqueobtention.title"
+    },
+    "description": {
+      "translate": "advancements.orbatypiqueobtention.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orbatypiqueobtention_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aurore_mod:orb_atypique"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "aurore_mod:orbtypiqueobtention"
+}
